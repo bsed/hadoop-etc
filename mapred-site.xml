@@ -13,36 +13,34 @@
   See the License for the specific language governing permissions and
   limitations under the License. See accompanying LICENSE file.
 -->
-
 <!-- Put site-specific property overrides in this file. -->
-
 <configuration>
- <property>
-  <name>mapredource.framework.name</name>
-  <value>yarn</name>
- </property>
- <proeprty>
-  <name>mapredource.jbotracker.http.address</name>
-  <value>bigdata:50030</value>
- </property>
- <property>
-  <name>mapredurce.jobhistory.address</name>
-  <value>bigdata:10020</value>
- </property>
- <property>
-  <name>mapredurce.jobhistory.webapp.address</name>
-  <value>bigdata:19888</value>
- </property>
- <property>
-  <name>mapredurce.jobhistory.done.dir</name>
-  <value>/jobhistory/done</value>
- </property>
- <property>
-  <name>mapredource.intermediate.done.dir</name>
-  <value>/jobhistory/done_intermediate</value>
- </property>
- <property>
- <name>mapredurce.job.ubertask.enable</name>
- <value>true</value>
- </property>
+  <property>
+    <name>mapreduce.framework.name</name>
+    <value>yarn</value>
+  </property>
+  <property>
+    <name>mapreduce.jobtracker.http.address</name>
+    <value>bigdata:50030</value>
+  </property>
+  <property>
+    <name>mapreduce.jobhisotry.address</name>
+    <value>bigdata:10020</value>
+  </property>
+  <property>
+    <name>mapreduce.jobhistory.webapp.address</name>
+    <value>bigdata:19888</value>
+  </property>
+  <property>
+    <name>mapreduce.jobhistory.done-dir</name>
+    <value>/jobhistory/done</value>
+  </property>
+  <property>
+    <name>mapreduce.intermediate-done-dir</name>
+    <value>/jobhisotry/done_intermediate</value>
+  </property>
+  <property>
+    <name>mapreduce.job.ubertask.enable</name>
+    <value>true</value>
+  </property>
 </configuration>
